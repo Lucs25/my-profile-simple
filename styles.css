@@ -62,6 +62,10 @@ footer {
   bottom: 0;
 }
 
+#email{
+  font-weight: bold;
+}
+
 
 button {
   background-color: #00bfff;
