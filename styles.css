@@ -1,0 +1,78 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+header {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  font-size: 1.2em;
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+.skills,
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill,
+.project {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  flex: 1 1 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.skill:hover,
+.project:hover {
+  background: #125eaf;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #007bff;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+
+
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; /* Muda o cursor para pointer */
+  transition: background-color 0.3s, transform 0.3s; /* Adiciona transição para transformação */
+}
+button:hover {
+  background-color: #007bff; /* Muda a cor do botão ao passar o mouse */
+  transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
